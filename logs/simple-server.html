@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡易 Web サーバを立ててプログラムを確認</title>
+</head>
+
+<body>
+    <h1>簡易 Web サーバを立ててプログラムを確認</h1>
+
+    <h2>共通 (プログラムが格納されているディレクトリに移動)</h2>
+    <p>
+        <code>
+            cd <ディレクトリ名>
+        </code>
+    </p>
+
+    <h2>Python</h2>
+    <ol>
+        <li>簡易サーバーを立てる</li>
+        <p>
+            <code>
+                python3 -m http.server 8000
+            </code>
+        </p>
+        <li>ブラウザで開く</li>
+        <p>
+            <code>
+                http\://localhost:8000
+            </code>
+        </p>
+    </ol>
+
+
+    <h2>Node.js</h2>
+    <ol>
+        <li>簡易サーバーを立てる</li>
+        <p>
+            <code>
+                npx serve
+            </code>
+        </p>
+        <li>ブラウザで開く</li>
+        <p>
+            <code>
+                http\://localhost:3000
+            </code>
+        </p>
+    </ol>
+</body>
+
+</html>
