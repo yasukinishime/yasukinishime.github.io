@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 40px;
+    line-height: 1.7;
+}
+
+h1 {
+    color: #333;
+}
+
+.section {
+    margin-top: 30px;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
